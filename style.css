@@ -20,6 +20,13 @@ aside{
     background-color: black;
     box-sizing: border-box;
 }
+aside nav{
+    padding: 20px;
+    margin-top: 110px;
+}
+aside nav img{
+    padding: 10px;
+}
 
 div{
     width: 90%;
@@ -47,51 +54,70 @@ header img{
     max-width:80px;
     margin-left: -50px;
 }
-
-
+main{
+    height: 80%;
+}
 main div{
-    padding: 0; 
     width: 100%;
-    height: 15%;
-    margin-bottom: 10px;
+    padding-top: 5px;
 }
 
-main div p{
-    padding-left: 15px;
-    height: 30%;
-    font-size: 14px;
+main p{
+    padding-left: 10px;
+    font-size: 13px;
 }
 
- 
+main section ol{
+    padding-left: 30px;
+}
+main section ol ul{
+    padding-left:5% ;
+}
+main div section{
+    width: 100%;
+}
+main div section ul {
+    padding-left: 30px;
+}
 .chapter{
     background-color: black;
     color: white;
     height: auto;
     text-align: center;
     margin-left:5px ;
+    margin-bottom: 5px  ;
 }
-
-
-/* 
- section ol{
-    width: auto;
- } */
+.tematy{
+    text-decoration:underline;
+}
 
 
  @media(min-width:400px){
     
-    div main{
+    main{
         height: 80%;
     }
-    main div{
-        height: 8%;
-        width: 50%;
-        margin-bottom: 20px;
+
+   main p{
+        
+        padding-left: 30px;
+        font-size: 20px;
     }
-    main div p{
-        padding-left: 15px;
-        height: 50%;
-        font-size: 20px; 
+    .chapter{
+        font-size: 30px;
+        width: 150px;
+        margin: 15px;
+    }
     
+    main section ol li{
+        font-size: 20px ;
     }
+    main section ul{
+        padding-left: 10px;
+        font-size: 20px ;
+    }
+
+    
+    
+    
 }
