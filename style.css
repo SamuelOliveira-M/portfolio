@@ -108,7 +108,19 @@ main div section ul {
         width: 150px;
         margin: 15px;
     }
-    
+    main div{
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url("imagens/image-central.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 500px;
+    }
+    main div section {
+        width: 180px;
+    }
     main section ol li{
         font-size: 20px ;
     }
