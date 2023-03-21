@@ -10,15 +10,16 @@
 
 body{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
 }
 
 aside{
+    
     width: 110px;
-    height: 100vh;
     background-color: black;
     box-sizing: border-box;
+    
 }
 aside nav{
     padding: 20px;
@@ -28,8 +29,8 @@ aside nav img{
     padding: 10px;
 }
 
-div{
-    width: 90%;
+body div{
+    width: 87%;
     padding-right: 5px;
 }
 
@@ -55,7 +56,6 @@ header img{
     margin-left: -50px;
 }
 main{
-    height: 80%;
 }
 main div{
     width: 100%;
@@ -92,11 +92,8 @@ main div section ul {
 }
 
 
- @media(min-width:400px){
-    
-    main{
-        height: 80%;
-    }
+ @media(min-width:700px){
+
 
    main p{
         
@@ -109,24 +106,32 @@ main div section ul {
         margin: 15px;
     }
     main div{
-        height: 60%;
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        background-image: url("imagens/image-central.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 500px;
+        
     }
-    main div section {
-        width: 180px;
+    main div section{
+        width: 30%;
+    }
+
+    main section {
+        width: 20%;
+        justify-content:end;
+        
     }
     main section ol li{
+        padding: 5px;
+        padding-bottom: 10px;
         font-size: 20px ;
+
     }
     main section ul{
         padding-left: 10px;
         font-size: 20px ;
+    }
+    main section section {
+        width:100%;
+        
     }
 
     
